@@ -7,7 +7,7 @@ module.exports = {
 		return res.send({
 			type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
 			data: {
-				content: `Ayo ${interaction.member.user.username}what´s up!`,
+				content: `Ayo ${interaction.member.user.username} what´s up!`,
 			},
 		});
 	}
